@@ -84,12 +84,13 @@
           </div>
         </div>
 
-        <div class="content anchor" id="publications" data-scroll-id="publications" tabindex="-1" style="outline: none;">
+        <div class="content anchor" id="publications">
           <div class="text" style="z-index:1;position:relative">
             <h3 style="margin-bottom:0em">
               Publications 
                 (<a href="https://xmengli999.github.io/" id="select0" onclick="showPubs(0); return false;" style="text-decoration: underline; color: rgb(0, 0, 0);">show selected</a> / 
-                <a href="https://xmengli999.github.io/" id="select1" onclick="showPubs(1); return false;" style="">show all by date</a>)
+                <a href="https://xmengli999.github.io/" id="select1" onclick="showPubs(1); return false;" style="">show all by date</a> / 
+                <a href="https://xmengli999.github.io/" id="select2" onclick="showPubs(2); return false;" style="">show all by topic</a>)
             </h3>
           </div>
           
@@ -309,557 +310,91 @@
                   <span class="highlight">Won 2016 international intervertebral disc localization and segmentation challenge</a></span> <br>
                 </div>
 
-
-
-          <script id="pubs_by_selected" language="text">
+          <script id="pubs_selected" language="text">
             
             <div class="text anchor">&nbsp;</div>
-
+                     
             <div class="publication">
-              <div class="img"><img class="img" src="indexpics/pmb.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888"  alt="spotlight_nscl"></div>
+              <div class="img"><img class="img_responsive" src="images/spotlight_dissertation.png" alt="spotlight_dissertation"></div>
               <div class="text">
-                <div class="venue"><a name="nscl_iclr" href="papers/jia_2020pmb.pdf">Deep Learning-augmented Radiotherapy Visualization with a Cylindrical Radioluminescence System</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://scholar.google.com/citations?user=H9kLmswAAAAJ&hl=en">Mengyu Jia*</a></span>,
-                  <span class="author jw">Xiaomeng Li*</span>,
-                  <span class="author">Yan Wu</span>,
-                  <span class="author">Yong Yang</span>,
-                  <span class="author">Priya Kasimbeg</span>,
-                  <span class="author">Lawrie B Skinner</span>,
-                  <span class="author">Lei Wang</span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span> (* indicates equal contribution)
+                <div class="title"><a name="dissertation" href="papers/dissertation.pdf">Learning to See the Physical World</a></div> 
+                <div>
+                  <span class="venue"><a href="papers/dissertation.pdf">PhD Dissertation 2019</a></span>
                 </div>
                 <div>
-                  Physics in Medicine & Biology, 2020</a></span>
+                  <span class="highlight"><a href="https://awards.acm.org/about/2019-doctoral-dissertation">ACM Doctoral Dissertation Award Honorable Mention</a></span></br>
+                  <span class="highlight">Joint AAAI/ACM SIGAI Doctoral Dissertation Award</span></br>
+                  <span class="highlight">MIT George M. Sprowls PhD Thesis Award in Artificial Intelligence and Decision-Making</span>
                 </div>
               </div>
             </div>
 
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/metal.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888"  alt="spotlight_nscl"></div>
-              <div class="text">
-                <div class="venue"><a name="nscl_iclr" href="papers/yu_tmi2020.pdf">Deep Sinogram Completion with Image Prior for Metal Artifact Reduction in CT Images</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=82GMBFcAAAAJ&hl=en">Zhicheng Zhang</a></span>,
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>
-                </div>
-                <div>
-                  IEEE Transactions on Medical Imaging (<i><b>TMI</b></i>), 2020</a></span>
-                </div>
-              </div>
-            </div>
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tmi20.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="Spotlight_vd"></div>
-              <div class="text">
-                <div class="venue"><a name="vd_tpami" href="papers/li_tmi2020_retinal.pdf">Self-supervised Feature Learning via Exploiting Multi-modal Data for Retinal Disease Diagnosis</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=H9kLmswAAAAJ&hl=en">Mengyu Jia</a></span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=32UZde4AAAAJ&hl=en">Md Tauhidul Islam</a></span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>
-                </div>
-                <div>
-                  IEEE Transactions on Medical Imaging (<i><b>IEEE TMI</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/self_supervised">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai20.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888" alt="spotlight_o2p2"></div>
-              <div class="text">
-                <div class="venue"><a name="o2p2_iclr" href="papers/li_miccai2020.pdf">Difficulty-aware Meta-learning for Rare Disease Diagnosis</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://yuemingjin.github.io/">Yueming Jin</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>
-                <div>
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2020</a></span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai20xue.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888" alt="spotlight_shape2prog"></div>
-              <div class="text">
-                <div class="venue"><a name="shape2prog_iclr" href="papers/xue_miccai2020.pdf">Cascaded Robust Learning at Imperfect Labels for Chest X-ray Segmentation</a></div> 
-                <div class="authors">
-                  <span class="author">Cheng Xue</span>,
-                  <span class="author">Qiao Deng</span>,
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span> 
-                </div>
-                <div>
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2020</a></span>
-                </div>
-              </div>
-            </div>
-
-            
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tcsm.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_jenga"></div>
-              <div class="text">
-                <div class="venue"><a name="jenga_scirobot" href="papers/li_tnnls2020.pdf">Transformation-consistent Self-ensembling Model for Semi-supervised Medical Image Segmentation</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span> 
-                </div>
-                <div>   
-                  IEEE Transactions on Neural Networks and Learning Systems (<i><b>IEEE TNNLS</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/TCSM">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tcsvt.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://ieeexplore.ieee.org/document/9072189">Deep Sub-region Network for Salient Object Detection</a></div> 
-                <div class="authors">
-                  <span class="author">Liansheng Wang</a></span>,
-                  <span class="author">Rongzhen Chen</a></span>,
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>,  
-                  <span class="author">Haoran Xie</a></span>,
-                  <span class="author jw">Xiaomeng Li</span>
-                </div>
-                <div>   
-                   IEEE Transactions on Circuits and Systems for Video Technology (<i><b>IEEE TCSVT</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/Ball-Chen/DSR-Net">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/TMI19.png" width="210" height="105" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="papers/li_tmi2019.pdf">CANet: Cross-disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>, 
-                  <span class="author"><a href="https://xw-hu.github.io/">Xiaowei Hu</a></span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>, 
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>  
-                IEEE Transactions on Medical Imaging (<i><b>IEEE TMI</b></i>), 2019 <br>
-                [<span class="highlight"><a href="https://github.com/xmengli999/CANet">Code/Models</a></span>] 
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai19.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="papers/yu_2019miccai.pdf">Uncertainty-aware Self-ensembling Model for Semi-supervised 3D Left Atrium Segmentation</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://emmaw8.github.io/">Shujun Wang</a></span>, 
-                  <span class="author jw">Xiaomeng Li</span>, 
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2019 <br>
-                  [<span class="highlight"><a href="https://github.com/yulequan/UA-MT">Code/Models</a></span>] 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/hdenseunet.jpg" width="210" height="155" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://ieeexplore.ieee.org/abstract/document/8379359">H-DenseUNet: Hybrid Densely Connected UNet for Liver and Liver Tumor Segmentation from CT Volumes</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://xjqi.github.io/">Xiaojuan Qi</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  IEEE Transactions on Medical Imaging (<i><b>TMI</b></i>), 2018 <br>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/H-DenseUNet">Code/Models</a></span>]
-                  [<span class="venue"><a href="https://competitions.codalab.org/competitions/17094#results">Challenge Page</a></span>] <br>
-                  <span class="highlight">ESI Highly Cited Paper</a></span> <br> 
-                  <span class="highlight"><a href="https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=42">Listed Among IEEE TMI Most Popular Articles in 2018,2019,2020,2021</a></span> <br>
-                  <span class="highlight">Ranked 1st on LiTS liver tumor segmentation leaderboard, until Oct. 2018</a></span> 
-                  
-                </div>
-              </div>
-            </div>          
-         
-              <div class="publication">
-              <div class="img"><img class="img" src="indexpics/mia.jpg" width="210" height="125" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://www.sciencedirect.com/science/article/pii/S1361841518300136?via%3Dihub">3D Multi-scale FCN with Random Modality Voxel Dropout Learning for Intervertebral Disc Localization and Segmentation from Multi-modality MR Images</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>,    
-                  <span class="author"><a href="https://xjqi.github.io/">Xiaojuan Qi</a></span>,
-                  <span class="author">Daniel L. Belavý</a></span>,
-                  <span class="author">Gabriele Armbrecht</a></span>,
-                  <span class="author">Dieter Felsenberg</a></span>,
-                  <span class="author"><a href="https://imr.sjtu.edu.cn/Keynote_Speaker/3044.html">Guoyan Zheng</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Analysis (<i><b>MedIA</b></i>), 2018 <br>
-                  <span class="highlight">Won 2016 international intervertebral disc localization and segmentation challenge</a></span> <br>
-                </div>
-
-
-          </script>  
-
-
-
-
-
+          </script>    
+          
           <script id="pubs_by_date" language="text">
             
             <div class="text anchor"><h4>2020</h4></div>
-            
+
             <div class="publication">
-              <div class="img"><img class="img" src="indexpics/pmb.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888"  alt="spotlight_nscl"></div>
+              <div class="img"><img class="img_responsive" src="images/spotlight_bpi.gif" alt="spotlight_bpi"></div>
               <div class="text">
-                <div class="venue"><a name="nscl_iclr" href="papers/jia_2020pmb.pdf">Deep Learning-augmented Radiotherapy Visualization with a Cylindrical Radioluminescence System</a></div> 
+                <div class="title"><a name="bpi_nips">Multi-Plane Program Induction with 3D Box Priors</a></div>
                 <div class="authors">
-                  <span class="author"><a href="https://scholar.google.com/citations?user=H9kLmswAAAAJ&hl=en">Mengyu Jia*</a></span>,
-                  <span class="author jw">Xiaomeng Li*</span>,
-                  <span class="author">Yan Wu</span>,
-                  <span class="author">Yong Yang</span>,
-                  <span class="author">Priya Kasimbeg</span>,
-                  <span class="author">Lawrie B Skinner</span>,
-                  <span class="author">Lei Wang</span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span> (* indicates equal contribution)
+                  <span class="author">Yikai Li*</span>,
+                  <span class="author"><a href="http://jiayuanm.com/">Jiayuan Mao</a>*</span>,
+                  <span class="author"><a href="http://people.csail.mit.edu/xiuming/">Xiuming Zhang</a></span>,
+                  <span class="author"><a href="http://billf.mit.edu">William T. Freeman</a></span>,
+                  <span class="author"><a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a></span>, 
+                  <span class="author"><a href="http://www.cs.cornell.edu/~snavely/">Noah Snavely</a></span>, 
+                  <span class="author jw">Jiajun Wu</span>
+                  <span class="tag">(* indicates equal contribution)</span>
                 </div>
                 <div>
-                  Physics in Medicine & Biology, 2020</a></span>
+                  <span class="venue"><a href="https://nips.cc/Conferences/2020">NeurIPS 2020</a></span> / 
+                  <span class="tag"><a href="http://bpi.csail.mit.edu/data/paper/2020NeurIPS-BPI.pdf">Paper</a></span> / 
+                  <span class="tag"><a href="http://bpi.csail.mit.edu/">Project Page</a></span> 
                 </div>
               </div>
             </div>
 
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/metal.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888"  alt="spotlight_nscl"></div>
-              <div class="text">
-                <div class="venue"><a name="nscl_iclr" href="papers/yu_tmi2020.pdf">Deep Sinogram Completion with Image Prior for Metal Artifact Reduction in CT Images</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=82GMBFcAAAAJ&hl=en">Zhicheng Zhang</a></span>,
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>
-                </div>
-                <div>
-                  IEEE Transactions on Medical Imaging (<i><b>TMI</b></i>), 2020</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai20.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888" alt="spotlight_o2p2"></div>
-              <div class="text">
-                <div class="venue"><a name="o2p2_iclr" href="papers/li_miccai2020.pdf">Difficulty-aware Meta-learning for Rare Disease Diagnosis</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://yuemingjin.github.io/">Yueming Jin</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>
-                <div>
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2020</a></span> 
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai20xue.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888" alt="spotlight_shape2prog"></div>
-              <div class="text">
-                <div class="venue"><a name="shape2prog_iclr" href="papers/xue_miccai2020.pdf">Cascaded Robust Learning at Imperfect Labels for Chest X-ray Segmentation</a></div> 
-                <div class="authors">
-                  <span class="author">Cheng Xue</span>,
-                  <span class="author">Qiao Deng</span>,
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span> 
-                </div>
-                <div>
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2020</a></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tmi20.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="Spotlight_vd"></div>
-              <div class="text">
-                <div class="venue"><a name="vd_tpami" href="papers/li_tmi2020_retinal.pdf">Self-supervised Feature Learning via Exploiting Multi-modal Data for Retinal Disease Diagnosis</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=H9kLmswAAAAJ&hl=en">Mengyu Jia</a></span>,
-                  <span class="author"><a href="https://scholar.google.com/citations?user=32UZde4AAAAJ&hl=en">Md Tauhidul Islam</a></span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>
-                </div>
-                <div>
-                  IEEE Transactions on Medical Imaging (<i><b>IEEE TMI</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/self_supervised">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tcsm.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_jenga"></div>
-              <div class="text">
-                <div class="venue"><a name="jenga_scirobot" href="papers/li_tnnls2020.pdf">Transformation-consistent Self-ensembling Model for Semi-supervised Medical Image Segmentation</a></div>
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="https://profiles.stanford.edu/lei-xing">Lei Xing</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span> 
-                </div>
-                <div>		
-                  IEEE Transactions on Neural Networks and Learning Systems (<i><b>IEEE TNNLS</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/TCSM">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/tcsvt.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://ieeexplore.ieee.org/document/9072189">Deep Sub-region Network for Salient Object Detection</a></div> 
-                <div class="authors">
-                  <span class="author">Liansheng Wang</a></span>,
-                  <span class="author">Rongzhen Chen</a></span>,
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>,  
-                  <span class="author">Haoran Xie</a></span>,
-                  <span class="author jw">Xiaomeng Li</span>
-                </div>
-                <div>		
-                   IEEE Transactions on Circuits and Systems for Video Technology (<i><b>IEEE TCSVT</b></i>), 2020</a></span> 
-                </div>
-                <div>
-                  [<span class="highlight"><a href="https://github.com/Ball-Chen/DSR-Net">Code/Models</a></span>]
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/neuro.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://www.sciencedirect.com/science/article/abs/pii/S092523122030607X">Revisiting Metric Learning for Few-shot Image Classification</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>, 
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-				  <span class="author"><a href="https://mengf1.github.io/">Meng Fang</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>	
-                  Neurocomputing, 2020. <br>
-              </div>
-            </div>
-
-            <div class="text anchor"><h4>2019</h4></div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/TMI19.png" width="210" height="105" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="papers/li_tmi2019.pdf">CANet: Cross-disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>, 
-                  <span class="author"><a href="https://xw-hu.github.io/">Xiaowei Hu</a></span>,
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>, 
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>	
-                IEEE Transactions on Medical Imaging (<i><b>IEEE TMI</b></i>), 2019 <br>
-                [<span class="highlight"><a href="https://github.com/xmengli999/CANet">Code/Models</a></span>] 
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/miccai19.png" width="210" height="95" style="box-shadow: 4px 4px 8px #888" alt="spotlight_genre"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="papers/yu_2019miccai.pdf">Uncertainty-aware Self-ensembling Model for Semi-supervised 3D Left Atrium Segmentation</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://emmaw8.github.io/">Shujun Wang</a></span>, 
-                  <span class="author jw">Xiaomeng Li</span>, 
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Computing and Computer Assisted Intervention (<i><b>MICCAI</b></i>), 2019 <br>
-                  [<span class="highlight"><a href="https://github.com/yulequan/UA-MT">Code/Models</a></span>] 
-                </div>
-              </div>
-            </div>
-
-
-            <div class="text anchor"><h4>2018</h4></div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/rotation.jpg" width="210" height="85" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://link.springer.com/chapter/10.1007/978-3-030-01201-4_25">Deeply Supervised Rotation Equivariant Network for Lesion Segmentation in Dermoscopy Images</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Computing and Computer Assisted Intervention Workshop, 2018 <br>
-                  <span class="highlight">Oral presentation</a></span> 
-                </div>
-              </div>
-            </div>
-
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/semi.png" width="210" height="85" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="http://bmvc2018.org/contents/papers/0162.pdf">Semi-supervised Skin Lesion Segmentation via Transformation Consistent Self-ensembling Model</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="https://yulequan.github.io/">Lequan Yu</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  The British Machine Vision Conference (<i><b>BMVC</b></i>), 2018 <br>
-                </div>
-              </div>
-            </div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/hdenseunet.jpg" width="210" height="155" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://ieeexplore.ieee.org/abstract/document/8379359">H-DenseUNet: Hybrid Densely Connected UNet for Liver and Liver Tumor Segmentation from CT Volumes</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://xjqi.github.io/">Xiaojuan Qi</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  IEEE Transactions on Medical Imaging (<i><b>TMI</b></i>), 2018 <br>
-                  [<span class="highlight"><a href="https://github.com/xmengli999/H-DenseUNet">Code/Models</a></span>]
-                  [<span class="venue"><a href="https://competitions.codalab.org/competitions/17094#results">Challenge Page</a></span>] <br>
-                  <span class="highlight">ESI Highly Cited Paper</a></span> <br> 
-                  <span class="highlight"><a href="https://ieeexplore.ieee.org/xpl/topAccessedArticles.jsp?punumber=42">Listed Among IEEE TMI Most Popular Articles in 2018,2019,2020,2021</a></span> <br>
-                  <span class="highlight">Ranked 1st on LiTS liver tumor segmentation leaderboard, until Oct. 2018</a></span> 
-                  
-                </div>
-              </div>
-            </div>          
-         
-              <div class="publication">
-              <div class="img"><img class="img" src="indexpics/mia.jpg" width="210" height="125" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://www.sciencedirect.com/science/article/pii/S1361841518300136?via%3Dihub">3D Multi-scale FCN with Random Modality Voxel Dropout Learning for Intervertebral Disc Localization and Segmentation from Multi-modality MR Images</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>,    
-                  <span class="author"><a href="https://xjqi.github.io/">Xiaojuan Qi</a></span>,
-                  <span class="author">Daniel L. Belavý</a></span>,
-                  <span class="author">Gabriele Armbrecht</a></span>,
-                  <span class="author">Dieter Felsenberg</a></span>,
-                  <span class="author"><a href="https://imr.sjtu.edu.cn/Keynote_Speaker/3044.html">Guoyan Zheng</a></span>, 
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Analysis (<i><b>MedIA</b></i>), 2018 <br>
-                  <span class="highlight">Won 2016 international intervertebral disc localization and segmentation challenge</a></span> <br>
-                </div>
-                
-              </div>
-            </div>    
-
-          <div class="publication">
-              <div class="img"><img class="img" src="indexpics/neurocomputing.jpg" width="210" height="105" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://www.sciencedirect.com/science/article/pii/S0925231218302959">Feature-preserving Ultrasound Speckle Reduction via L0 Minimization</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>,  
-                  <span class="author">Weiming Wang</a></span>, 
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author">Qiong Wang</a></span>,
-                  <span class="author">Jing Qin</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~khwong/">Kin-Hong Wong</a></span>,
-                  <span class="author">Kup-Sze Choi</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>,    
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>  
-                  Neurocomputing, 2018<br>
-                </div>
-              </div>
-            </div>  
-
-          <div class="text anchor"><h4>2016</h4></div>
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/drop.jpg" width="210" height="105" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://link.springer.com/chapter/10.1007/978-3-319-55050-3_8">Multi-scale and Modality Dropout Learning for Intervertebral Disc Localization and Segmentation</a></div> 
-                <div class="authors">
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~qdou/">Qi Dou</a></span>,
-                  <span class="author"><a href="https://scholar.google.com.hk/citations?user=Z_t5DjwAAAAJ&hl=zh-CN">Hao Chen</a></span>,
-                  <span class="author"><a href="https://www.cse.cuhk.edu.hk/~cwfu/">Chi-Wing Fu</a></span>,    
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>   
-                  Medical Image Computing and Computer Assisted Intervention Workshop, 2016<br>
-                </div>
-              </div>
-            </div>    
-
-            <div class="publication">
-              <div class="img"><img class="img" src="indexpics/accv.jpg" width="210" height="105" style="box-shadow: 4px 4px 8px #888"></div>
-              <div class="text">
-                <div class="venue"><a name="genre_nips" href="https://link.springer.com/chapter/10.1007/978-3-319-54187-7_4">Ultrasound Speckle Reduction via L0 Minimization</a></div> 
-                <div class="authors">
-                  <span class="author"><a href="https://appsrv.cse.cuhk.edu.hk/~lzhu/">Lei Zhu</a></span>,  
-                  <span class="author">Weiming Wang</a></span>, 
-                  <span class="author jw">Xiaomeng Li</span>,     
-                  <span class="author">Qiong Wang</a></span>,
-                  <span class="author">Jing Qin</a></span>,
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~khwong/">Kin-Hong Wong</a></span>,   
-                  <span class="author"><a href="http://www.cse.cuhk.edu.hk/~pheng/">Pheng-Ann Heng</a></span>
-                </div>    
-                  Asian Conference on Computer Vision (<i><b>ACCV</b></i>), 2016<br>
-                </div>
-              </div>
-            </div>    
-          
           </script>
+
+          <script id="pubs_by_topic" language="text">
+            
+            <div class="text anchor" id="phys"><h4>Physical Scene Understanding</h4></div>
+                      
+            <div class="publication">
+              <div class="img"><img class="img_responsive" src="images/spotlight_psgnet.jpg" alt="spotlight_psgnet"></div>
+              <div class="text">
+                <div class="title"><a name="psgnet_nips">Learning Physical Graph Representations from Visual Scenes</a></div>
+                <div class="authors">
+                  <span class="author">Daniel Bear</span>,
+                  <span class="author">Chaofei Fan</span>,
+                  <span class="author">Damian Mrowca</span>,
+                  <span class="author"><a href="http://people.csail.mit.edu/liyunzhu/">Yunzhu Li</a></span>,
+                  <span class="author">Seth Alter</span>,
+                  <span class="author"><a href="https://sites.google.com/site/anayebihomepage/">Aran Nayebi</a></span>,
+                  <span class="author">Jeremy Schwartz</span>,
+                  <span class="author"><a href="https://profiles.stanford.edu/fei-fei-li/">Li Fei-Fei</a></span>, 
+                  <span class="author jw">Jiajun Wu</span>,
+                  <span class="author"><a href="http://web.mit.edu/cocosci/josh.html">Joshua B. Tenenbaum</a></span>, 
+                  <span class="author"><a href="http://stanford.edu/~yamins/">Daniel L. K. Yamins</a></span>
+                 </div>
+                <div>
+                  <span class="venue"><a href="https://nips.cc/Conferences/2020">NeurIPS 2020</a></span> / 
+                  <span class="tag"><a href="papers/psgnet_nips.pdf">Paper</a></span> /
+                  <span class="tag"><a href="https://neuroailab.github.io/physical-scene-graphs/">Project Page</a></span> 
+                </div>
+                <div>
+                  <span class="highlight">Oral Presentation</span>
+                </div>
+              </div>
+            </div>
+
+          </script>
+
+
+
 
         </div>  <!-- content -->
 
